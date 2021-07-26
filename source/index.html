@@ -13,23 +13,185 @@
   </head>
 
   <body>
-    <header class="header"></header>
-    <main>
+    <header class="header">
       <h1 class="visually-hidden">Питомник Мейн&nbsp;-&nbsp;Кунов</h1>
 
-      <section class="promo">
+      <div class="promo">
         <h2 class="promo__title">Питомник Мейн-Кунов</h2>
-        <p class="promo__city-name">Новосибирск</p>
+        <p class="promo__city">Новосибирск</p>
         <p class="promo__slogan">Первый питомник с расширенным спектром услуг</p>
-        <a href="#" class="button">Смотреть котиков</a>
+        <a href="#" class="button button--link">Смотреть котиков</a>
         <img src="" alt="Фото Мейн-Куна" class="promo__image" width="275" height="256" />
-      </section>
-
+      </div>
+    </header>
+    <main>
       <section class="pets">
         <h2 class="pets__title">Питомцы</h2>
+        <p class="pets__info">
+          Все представители нашего питомника имеют ветеринарный паспорт с отметками о прививках и документ с родословной
+        </p>
+        <div class="pets__gallery gallery">
+          <ul class="gallery__buttons-list">
+            <li class="gallery__buttons-item"><a href="#" class="button button--change-category">Коты</a></li>
+            <li class="gallery__buttons-item"><a href="#" class="button button--change-category">Кошки</a></li>
+            <li class="gallery__buttons-item"><a href="#" class="button button--change-category">Котята</a></li>
+          </ul>
+          <ul class="gallery__images-list">
+            <li class="gallery__item"><img src="" alt="Черный мейн-кун" class="gallery__image" /></li>
+            <li class="gallery__item"><img src="" alt="Белый мейн-кун" class="gallery__image" /></li>
+            <li class="gallery__item"><img src="" alt="Черепаховый мейн-кун" class="gallery__image" /></li>
+          </ul>
+          <a href="#" class="button button--link">Смотреть больше</a>
+        </div>
+      </section>
+
+      <section class="breed-features">
+        <h2 class="breed-features__title">Особенности породы</h2>
+        <p class="breed-features__text">
+          Мейн-Кун - это порода, которая вызывает к себе уважение. Приобретая в свой дом этого питомца, вы получите
+          умное животное, которому нет равных
+        </p>
+        <img src="" alt="Рыжий мейн-кун" class="breed-features__image" />
+        <ul class="breed-features__features-list">
+          <li class="breed-features__feature-item">Легко уживается в семьях с детьми или другими животными</li>
+          <li class="breed-features__feature-item">Выполняет команды как дрессированная собака</li>
+          <li class="breed-features__feature-item">Вес может достигать 12 кг, а длина 1 м</li>
+          <li class="breed-features__feature-item">Внешний вид этой кошки похож на дикую рысь</li>
+        </ul>
+      </section>
+
+      <section class="about-us">
+        <h2 class="about-us__title">Почему именно мы?</h2>
+        <p class="about-us__text">Приобретая животное в нашем питомнике, вы получите</p>
+        <ul class="about-us__benefits-list">
+          <li class="about-us__benefits-item">Бесплатное ветеринарное обслуживание 5 лет</li>
+          <li class="about-us__benefits-item">Консультирование по любому вопросу 24 часа в сутки</li>
+          <li class="about-us__benefits-item">Индивидуальный подбор питания для вашего кота</li>
+        </ul>
+      </section>
+
+      <section class="breed-care">
+        <h2 class="breed-care__title">Об уходе за Мейн-Куном</h2>
+        <ul class="breed-care__topics-list topics-list">
+          <li class="topics-list__item">
+            <a href="" class="topics-list__link">
+              <h3 class="topics-list__subtitle">Шерсть</h3>
+              <p class="topics-list__text">
+                Мы разработали 8 правил, следуя которым, шерсть вашего кота всегда будет блестящей, мягкой и послушной
+              </p>
+            </a>
+          </li>
+          <li class="topics-list__item">
+            <a href="" class="topics-list__link">
+              <h3 class="topics-list__subtitle">Уши и глаза</h3>
+              <p class="topics-list__text">
+                Владельцам котов необходимо регулярно осматривать ушки и глазасвоих питомцев, ведь это может быть
+                признаками заболевания
+              </p>
+            </a>
+          </li>
+          <li class="topics-list__item">
+            <a href="" class="topics-list__link">
+              <h3 class="topics-list__subtitle">Когти</h3>
+              <p class="topics-list__text">
+                Нужно ли стричь когти? Это мы и выясним, плюс ко всему расскажем как подобрать идеальную когтеточку
+              </p>
+            </a>
+          </li>
+          <li class="topics-list__item">
+            <a href="" class="topics-list__link">
+              <h3 class="topics-list__subtitle">Питание</h3>
+              <p class="topics-list__text">
+                В нашем питомнике существует два подхода: натуральное питание и питание промышленными кормами, но
+                выбирать только вам
+              </p>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="about-team">
+        <h2 class="about-team__title">Наша команда</h2>
+        <p class="about-team__text"></p>
+        <ul class="about-team__employees employees">
+          <li class="employees__item">
+            <img src="" alt="" class="employees__photo" />
+            <span class="employees__name">Серёжа Попов</span>
+            <span class="employees__position">Основатель питомника</span>
+            <p class="employees__slogan">
+              Наш питомник занимается разведением Мейн-Кунов на протяжении 15 лет. Мы в ответе за каждого приобретенного
+              вами питомца
+            </p>
+            <ul class="employees__socials-list">
+              <li class="employees__socials-item">
+                <a href="#" class="employees__socials-link"><img src="" alt="" class="employees__socials-image" /></a>
+              </li>
+              <li class="employees__socials-item">
+                <a href="#" class="employees__socials-link"><img src="" alt="" class="employees__socials-image" /></a>
+              </li>
+              <li class="employees__socials-item">
+                <a href="#" class="employees__socials-link"><img src="" alt="" class="employees__socials-image" /></a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <section class="faq">
+        <h2 class="faq__title">Вопрос-Ответ</h2>
+        <p class="faq__text">Мы ответим на самые популярные ваши вопросы</p>
+        <dl class="faq__list">
+          <dt class="faq__question">С какого возраста можно забирать котенка из питомника?</dt>
+          <dd class="faq__answer">
+            Есть важная причина, почему котенка стоит забирать домой только после трех месяцев, — это вакцинация. Первые
+            прививки животному делают в возрасте 8 недель. Ревакцинация проводится через 3–4 недели. То есть котенок,
+            покидающий дом позднее 12 недель, максимально защищен от различных вирусов и инфекций. <br />
+            Так что, чтобы в дома появился психически и физически здоровый котенок, игривый, жизнерадостный,
+            самостоятельный и воспитанный, не спешите забирать его от кошки-мамы раньше трех месяцев.
+          </dd>
+          <dt class="faq__question">Как зарезервировать котенка?</dt>
+          <dd class="faq__answer"></dd>
+          <dt class="faq__question">Можно ли купить кота, если я живу в другом городе?</dt>
+          <dd class="faq__answer"></dd>
+          <dt class="faq__question">Как подготовить дом к приему нового питомца?</dt>
+          <dd class="faq__answer"></dd>
+        </dl>
+      </section>
+
+      <section class="comments">
+        <h2 class="comments__title">Отзывы</h2>
+        <img src="" alt="" class="comments__person-avatar" />
+        <span class="comments__person-name">Серёжа Попов</span>
+        <p class="comments__person-text">
+          Я выражаю огромную благодарность вашему питомнику. Мой Феликс невероятно умен и воспитан. Огромным плюсом
+          питомника является возможность консультироваться в любое время
+        </p>
+        <div class="comments__footer">
+          <time class="comments__comment-time" datetime="2018-05-24">24 мая 2018</time>
+          <ul class="comments__footer-socials-list">
+            <li class="comments__footer-socials-item"><a href="" class="comments__footer-socials-link">twitter</a></li>
+            <li class="comments__footer-socials-item">
+              <a href="" class="comments__footer-socials-link">vkontakte</a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <ul class="footer__socials-list">
+        <li class="footer__socials-item">
+          <a href="" class="footer__socials-link"><img src="" alt="" class="footer__socials-logo" /></a>
+        </li>
+        <li class="footer__socials-item">
+          <a href="" class="footer__socials-link"><img src="" alt="" class="footer__socials-logo" /></a>
+        </li>
+        <li class="footer__socials-item">
+          <a href="" class="footer__socials-link"><img src="" alt="" class="footer__socials-logo" /></a>
+        </li>
+      </ul>
+      <address class="footer__address">Новосибирск, Пушкинский проспект, 19</address>
+      <a href="tel:+73839006465" class="footer__phone">+7 (383) 900-64-65</a>
+    </footer>
   </body>
 </html>
