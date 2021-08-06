@@ -18,8 +18,10 @@ img {
   padding: 0;
   font-family: "Roboto", "Arial", sans-serif;
   font-size: 16px;
+  line-height: 24px;
   font-weight: 400;
-  background-color: $basic_gold;
+  color: $basic_gold;
+  background-color: $basic_graphite_grey;
 }
 
 .visually-hidden {

@@ -1,0 +1,29 @@
+.topics-list {
+  list-style: none;
+  padding: 0;
+}
+
+.topics-list__item {
+  width: 560px;
+  min-height: 165px;
+  background-color: $special_black_faded;
+  border: 0.5px solid $basic_gold;
+}
+
+.topics-list__link {
+  text-decoration: none;
+}
+
+.topics-list__subtitle {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+  color: $basic_gold;
+}
+
+.topics-list__text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 23px;
+  color: $basic_white;
+}

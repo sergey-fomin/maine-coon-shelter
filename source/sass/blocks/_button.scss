@@ -1,0 +1,21 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 52px;
+  text-decoration: none;
+  color: $basic_white;
+  border: 0.5px solid $basic_gold;
+  cursor: pointer;
+
+  &:hover,
+  &:focus-visible {
+    background-color: $basic_gold;
+    text-shadow: -3px 2px 2px $special_dark_grey;
+  }
+
+  &:active {
+    text-shadow: none;
+  }
+}

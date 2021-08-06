@@ -1,0 +1,37 @@
+.team {
+  background-color: $basic_dark_grey;
+}
+
+.team__item-wrapper {
+  background-color: $basic_graphite_grey;
+}
+
+.team__title {
+  font-family: "Yeseva One", "Georgia", serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: $basic_white;
+}
+
+.team__lead {
+  line-height: 25px;
+}
+
+.team__item-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.team__item-jobTitle {
+  font-style: normal;
+  line-height: 22px;
+}
+
+.team__item-text {
+  font-weight: 300;
+  line-height: 25px;
+  color: $special_white_faded_light;
+}

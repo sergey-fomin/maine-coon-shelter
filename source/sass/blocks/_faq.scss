@@ -1,0 +1,28 @@
+.faq__title {
+  font-family: "Yeseva One", "Georgia", serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: $basic_white;
+}
+
+.faq__lead {
+  line-height: 23px;
+}
+
+.faq__question {
+  min-width: 793px;
+  min-height: 110px;
+  font-weight: 500;
+  line-height: 19px;
+  color: $basic_light_grey;
+  background-color: transparent;
+  border: 0.5px solid $special_gold_faded_low_med;
+  cursor: pointer;
+}
+
+.faq__answer {
+  font-weight: 300;
+  line-height: 25px;
+  color: $basic_light_grey;
+}

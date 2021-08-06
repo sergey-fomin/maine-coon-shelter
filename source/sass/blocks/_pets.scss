@@ -1,0 +1,29 @@
+.pets__title {
+  font-family: "Yeseva One", "Georgia", serif;
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: normal;
+  color: $basic_white;
+}
+
+.pets__lead {
+  width: 516px;
+  line-height: 26px;
+}
+
+.pets__category-list {
+  padding: 0;
+  list-style: none;
+}
+
+.pets__category {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: $special_white_faded_strong;
+
+  &--active {
+    color: $basic_white;
+  }
+}

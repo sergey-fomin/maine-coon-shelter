@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: $special_dark_grey;
+
+  &--cat-theme {
+    background-image: url("../img/bg-cat-theme-header-desktop.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+  }
+}
+
+.header__logo {
+  margin: 0 auto;
+}
+
+.header__content {
+  max-width: 600px;
+}
+
+.header__title {
+  font-family: "Yeseva One", "Georgia", serif;
+  font-size: 52px;
+  line-height: 60px;
+  font-weight: normal;
+  color: $basic_white;
+}
+
+.header__lead {
+  width: 335px;
+}

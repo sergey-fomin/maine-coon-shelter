@@ -1,0 +1,56 @@
+.breed-features__title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: $basic_white;
+}
+
+.breed-features__lead {
+  font-weight: 300;
+  line-height: 26px;
+}
+
+.breed-features__features-list {
+  position: relative;
+  padding: 0;
+  list-style: none;
+
+  &::before {
+    content: "";
+    width: 631px;
+    height: 631px;
+    color: transparent;
+    border-radius: 50%;
+    border: 0.5px solid $basic_gold;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+  }
+
+  &--cat-image {
+    background-image: url("../img/red-cat-desktop.png");
+    width: 623px;
+    height: 908px;
+    z-index: 3;
+    transform: translateX(-50%);
+    left: 50%;
+
+    &::after {
+      content: "";
+      width: 519px;
+      height: 519px;
+      background-color: $basic_dark_grey;
+      border-radius: 50%;
+      position: absolute;
+      transform: translateX(-50%);
+      left: 50%;
+    }
+  }
+}
+
+.breed-features__feature-item {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: $basic_white;
+}

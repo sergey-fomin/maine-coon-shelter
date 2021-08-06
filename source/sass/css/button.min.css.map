@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,AAAC,CACN,eAAe,CAAE,IAAI,CACtB",
+    "sources": [
+        "../blocks/button.scss"
+    ],
+    "names": [],
+    "file": "button.min.css"
+}

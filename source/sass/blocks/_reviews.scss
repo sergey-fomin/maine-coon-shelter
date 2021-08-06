@@ -1,0 +1,34 @@
+.reviews__title {
+  font-family: "Yeseva One", "Georgia", serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: $basic_white;
+}
+
+.reviews__content {
+  min-width: 640px;
+  min-height: 408px;
+  background-color: $basic_dark_grey;
+}
+
+.reviews__name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: $basic_white;
+}
+
+.reviews__item-text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 23px;
+  color: $special_white_faded_light;
+}
+
+.reviews__time {
+  font-size: 12px;
+  line-height: 19px;
+  color: $special_gold_faded_light;
+}
